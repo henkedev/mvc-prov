@@ -13,4 +13,3 @@ Lägg in uppgifter om databas i app/config.xml
 
 ### Server
 kör php-servern i mappen "public"
-
