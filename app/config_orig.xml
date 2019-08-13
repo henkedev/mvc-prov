@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<config>
+	<database>
+		<host>localhost</host>
+		<name>dbname</name>
+		<user>username</user>
+		<pass>password</pass>
+	</database>
+	<web>
+		<base_url>http://localhost:8000</base_url>
+	</web>
+</config>

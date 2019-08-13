@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<routes>
+    <route method="GET" url="/" controller="IndexController" action="index" />    
+    <route method="GET" url="/post/edit/" controller="PostsController" action="edit" param="id"/>
+    <route method="POST" url="/post/save" controller="PostsController" action="save" />
+    <route method="GET" url="/post/create" controller="PostsController" action="create" />
+    <route method="POST" url="/post/store" controller="PostsController" action="store" />
+    <route method="POST" url="/post/delete" controller="PostsController" action="delete" param="id" />
+</routes>

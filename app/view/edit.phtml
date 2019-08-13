@@ -1,0 +1,14 @@
+<div class="container">
+<h1>Redigera</h1>
+<form action="/post/save" method="POST" id="post-form">
+<div class="input">
+    <input type="text" name="title" value="<?php echo $this->getData('post')->title ?>" />
+</div>
+<div class="input">
+    <textarea name="description" cols="40" rows="10"><?php echo $this->getData('post')->description ?></textarea>
+</div>
+<input type="hidden" name="id" value="<?php echo $this->getData('post')->id ?>" />
+<button type="submit" class="btn btn-success">Spara</button>
+<a href="/" class="btn btn-primary">Avbryt</a>
+</form>
+</div>

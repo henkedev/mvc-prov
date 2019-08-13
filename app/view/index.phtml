@@ -1,0 +1,15 @@
+<div class="container">
+    <a href="/post/create" class="btn btn-info">Lägg till</a>
+    <hr>
+    <?php foreach ($this->getData('posts') as $post): ?>
+        <div class="card">
+            <div class="post">
+                <h2><a href="/post/edit/<?php echo $post->id ?>"><?php echo $post->title ?></a></h2>
+                <p><?php echo $post->description ?></p>    
+                <form action="/post/delete/<?php echo $post->id ?>" method="POST" onsubmit="return confirm('Radera?');">
+                    <input type="submit" value="Radera" class="btn btn-danger" />
+                </form>
+            </div>
+        </div>
+    <?php endforeach; ?>
+</div>
