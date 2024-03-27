@@ -4,7 +4,7 @@
 
 ### Förbered systemet
 - Kör composer install i roten
-- Importera databasfilen mappen "doc" till en existerande MySQL-databas
+- Importera databasfilen i mappen "doc" till en existerande MySQL-databas
 
 ### Config-filen
 - Kopiera eller ändra config_orig.xml till config.xml (finns i mappen "app")
