@@ -3,7 +3,7 @@
 ## Installation
 
 ### Förbered systemet
-- Kör composer install i roten
+- Kör composer install i rotkatalogen
 - Importera databasfilen i mappen "doc" till en existerande MySQL-databas
 
 ### Config-filen
